@@ -1,0 +1,15 @@
+metadata:
+  Active: True
+  Name: "Production Location Metadata"
+  Type: ipBlock
+
+syntheticData:
+  - '172.16':
+    prefixName: 'Private 172 Address space'
+    # This is the Synthetic Location ID as it appears in the API
+    syntheticLocation: 'SYNTHETIC_LOCATION-AAAA'
+  
+  - '192.168':
+    prefixName: 'Private 192 Address space'
+    # This is the Synthetic Location ID as it appears in the API
+    syntheticLocation: 'SYNTHETIC_LOCATION-BBBB'
